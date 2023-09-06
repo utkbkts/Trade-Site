@@ -1,8 +1,3 @@
-# React + Vite
+Redux-toolkit ile hesaplamar yapıldı kullanıcı üye olup giriş yapabiliyor github ve google hesabı ile sonrasında stripe ile online bir ödeme sistemi yapıldı firebase ile kullanıcı verileri saklanıyor şifreler gizleniyor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Calculations were made with Redux-toolkit, the user can sign up and log in with github and google account, then an online payment system was made with stripe, user data is stored with firebase and passwords are hidden.
