@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'Poppins', sans-serif;
+}
+@keyframes input {
+    0% {
+        transform: translateX(-5px);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+.footer .error{
+    border-bottom: 1px solid red !important;
+    border: none;
+    animation: input .5s;
+}
